@@ -1,0 +1,218 @@
+.Titulo {
+   font-size: 100px;
+   font-family: "Cinzel", serif;
+   margin-left: 850px;
+   margin-top: 200px;
+   fill: aqua;
+
+}
+
+.Titulo2 {
+   font-size: 100px;
+   font-family: "Cinzel", serif;
+   text-align: center;
+   margin-top: 1px;
+   fill: aqua;
+
+}
+
+.Menu {
+   margin-top: -100px;
+   text-align: center;
+}
+
+.buscador{
+   margin-top: 250px;
+   margin-bottom: -100px;
+   z-index: 998;
+}
+
+
+.cinzel {
+   font-family: "Cinzel", serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+ }
+
+ .montserrat {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+ }
+
+ 
+ .cabezal{
+   font-family: "Cinzel", serif;
+   background-color: #333;
+   font-size: 25px;
+   justify-content: center;
+   color: rgb(255, 214, 245);
+   margin-left: 665px;
+   width: 1200px;
+   margin-top: 300px;
+   margin-bottom: -200px;
+   border: 5px solid rgb(88, 85, 85);
+   /*border-color: #111111;
+   border-radius: 1%;*/
+   text-align: center;
+   opacity: 0.8;
+}
+
+
+.grupofotos {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 400px;
+}
+
+
+.gruponombres {
+   /*background-color: blue;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.grupoprecios {
+   /*background-color: blue;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.grid {
+   display: grid;
+   margin-top: 0px;
+   margin-left: 0px;
+   grid-template-columns: repeat(3, 350px);
+   grid-template-rows: repeat(3, 350px); /*lo encontre ahi en la pagina de mozilla, pas ahorrar lineas*/
+   gap: 100px;
+}
+
+.grid2 {
+   margin-top: -1650px;
+   margin-left: 0px;
+   display: grid;
+   grid-template-columns: repeat(3, 350px);
+   grid-template-rows: repeat(3, 350px); /*lo encontre ahi en la pagina de mozilla, pas ahorrar lineas*/
+   gap: 100px;
+   z-index: 995;
+
+}
+.grid3 {
+   margin-top: -1050px;
+   margin-left: 0px;
+   display: grid;
+   grid-template-columns: repeat(3, 350px);
+   grid-template-rows: repeat(3, 350px); /*lo encontre ahi en la pagina de mozilla, pas ahorrar lineas*/
+   gap: 100px;
+   z-index: 994;
+}
+
+.item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgb(204, 204, 204);
+   border-radius: 10px;
+   background-color: #333;
+
+
+}
+
+.nombre {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Cinzel", serif;
+   font-size: 18px;
+   color: #fff;
+
+}
+
+
+.precio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Cinzel", serif;
+   font-size: 18px;
+   color: #fff;
+ 
+
+}
+
+
+.item img {
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
+
+}
+
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   z-index: 999; /* Para asegurarse de que el panel esta por encima del contenido */
+}
+
+
+
+.desc{
+   background-color: #333;
+   color: #fff;
+   font-family: "Cinzel", serif;
+   justify-content: center;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: -200px;
+   margin-left: -10px;
+   font-size: 25px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   opacity: 0.7;
+
+}
+
+.desc2{
+   background-color: #333;
+   color: #fff;
+   font-family: "Cinzel", serif;
+   justify-content: center;
+   text-align: center;
+   margin-top: -100px;
+   margin-left: -10px;
+   font-size: 25px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   opacity: 0.7;
+
+}
+
+.xd {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 105%;
+   min-height: 100%;
+   transform: translateX(calc((100% - 100vw) / 2));
+   z-index: -2;
+   opacity: 0.7;
+}
+.ok{
+   margin-left: 950px;
+   border-radius: 2%;
+}
+
+
